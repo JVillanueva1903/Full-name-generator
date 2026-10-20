@@ -12,13 +12,14 @@ public class FullNameBuilder {
         // Prompt for each part of the name
         System.out.print("Enter your first name: ");
         String first;
-        first = input.nextLine().trim();
+        java.lang.Object firstName = input.nextLine().trim();
 
         System.out.print("Enter your middle name (press Enter if none): ");
-        String middle = input.nextLine().trim();
+        Scanner scanner;
+        String middleName = scanner.nextLine().trim();
 
         System.out.print("Enter your last name: ");
-        String last = input.nextLine().trim();
+        String lastName = input.nextLine().trim();
 
         System.out.print("Enter your suffix (press Enter if none): ");
         String suffix = input.nextLine().trim();
